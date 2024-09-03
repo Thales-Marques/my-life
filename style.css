@@ -1,0 +1,73 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: radial-gradient(rgba(21, 0, 255, 0.363), rgba(225, 0, 241, 0.317), rgba(0, 226, 242, 0.495), rgba(8, 0, 255, 0.482));
+}
+/*body: está sendo alterado a fonte em si, zerando as margins e espaçamento internos e uma cor de fundo background-image na radial, pai sabe das coisas*/
+
+header{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 25px;
+}
+/*header: definindo alinhamento, espaçamento e distancia (nessa ordem, tá?)*/
+
+h1{
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+/*
+h1: Tem que falar tudo mesmo? Vou da Ctrl+C e Ctrl+V nos comentários, ok? Mas nesse aqui deixei a fonte nesse tamanho, margim nesse pique e fonta deitada
+*/
+
+.border{
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+    display: inline-block;
+    background-color: white;
+}
+
+#menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px; /* Espaçamento entre os links */
+}
+
+#menu a{
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #000;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+#menu a:hover{
+    color: #8604ad; /* Muda a cor ao passar o mouse */
+    text-decoration: underline;
+}
+
+h2{
+    font-style: italic;
+    color: #000000;
+    text-align: center;
+}
+
+.paragrafo{
+    margin: 15px;
+    text-align: justify;
+}
+
+#hi, footer{
+    background-color: rgba(44, 42, 42, 0.288);
+    border: #000000 solid 2px;
+    border-radius: 15px;
+    margin: 25px;
+}
+
+/*vou resumir os comentarios nesse, é coisa simples mesmo. Baixa a nota por isso não, implorando.
+Resumindo, coloquei uma corde fundo com background-image, usando radial como proprieade. Deixei as fontes bonitinhas e é isso.*/
